@@ -7,13 +7,20 @@ class User extends Component {
         //destruction
         const{name,department,cost,gender}=this.props;
         return (
-            <div>
-            <ul>
-            <li>name:{name}<i class="fas fa-user"></i> </li>
-            <li>department:{department}</li>
-            <li>cost:{cost}</li>
-            <li>Gender:{gender}</li>
-            </ul>
+            <div className="col-md-8 mb-4">
+                <div className="card">
+                <div className="card-header d-flex justify-content-between" >
+                    <h4 className="d-inline">{name}</h4>
+                    <i className="far fa-trash-alt" style={{cursor:"pointer"}} ></i>
+                </div>
+                    <div className=" card-body" >
+                        <p className="card-text">Cost:{cost} </p>
+                        <p className="card-text">Department:{department} </p>
+                        <p className="card-text">Gender:{gender} </p>
+
+                    </div>                   
+                </div>
+            
             </div>
         )
     }
