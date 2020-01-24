@@ -9,7 +9,7 @@ class User extends Component {
         return (
             <div>
             <ul>
-            <li>name:{name}</li>
+            <li>name:{name}<i class="fas fa-user"></i> </li>
             <li>department:{department}</li>
             <li>cost:{cost}</li>
             <li>Gender:{gender}</li>
