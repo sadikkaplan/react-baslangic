@@ -13,12 +13,12 @@ class App extends Component{
       <User
         name="SK"
         cost="7000"
-        department="Soft."
+        //department="Soft."
         gender="M"
       />  
       <User
         name="ZK"
-        cost="5000"
+        //cost="5000"
         department="Analyist"
         gender="F"
       />  
